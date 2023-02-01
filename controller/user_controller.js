@@ -94,6 +94,8 @@ const sign_up = async (req, res) => {
 };
 
 const sign_out = async (req, res) => {
+  // let Remove = cookies.remove();
+  // res.json({
   res.clearCookie("token").json({
     success: true,
     message: "signed out successfully",
