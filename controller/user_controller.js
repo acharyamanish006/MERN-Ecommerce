@@ -24,6 +24,7 @@ const sign_in = async (req, res) => {
       );
       let token_option = {
         expire: new Date(Date.now() + 90 * 24 * 60 * 60 * 1000),
+        httpOnly: true,
       };
       return res.cookie("token", token, token_option).json({
         success: true,
@@ -77,6 +78,7 @@ const sign_up = async (req, res) => {
     );
     let token_option = {
       expire: new Date(Date.now() + 90 * 24 * 60 * 60 * 1000),
+      httpOnly: true,
     };
     return res.cookie("token", token, token_option).json({
       success: true,
