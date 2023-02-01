@@ -4,7 +4,8 @@ const connect_DB = require("./config/connectDB");
 const router = require("./router/router");
 const cookieParser = require("cookie-parser");
 const cors = require("cors");
-
+const path = require("path");
+const express = require("express");
 //connecting to database
 connect_DB();
 
@@ -29,6 +30,13 @@ app.use("/api/v1", router);
 //     message: err.message,
 //   });
 // });
+const BUILD_PATH = path.join(__dirname, "./build");
+console.log(BUILD_PATH);
+app.use(express.static(BUILD_PATH));
+app.get("*", (req, res) => {
+  res.sendFile(path.join(BUILD_PATH, "index.html"));
+  // res.json(BUILD_PATH);
+});
 
 app.listen(process.env.PORT, () => {
   console.log(`port at ${process.env.PORT}`);
