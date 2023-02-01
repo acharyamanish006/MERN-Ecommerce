@@ -11,10 +11,11 @@ connect_DB();
 //middleware
 app.use(
   cors({
-    origin: [
-      "http://localhost:3000",
-      "https://graphic-card-seller.onrender.com",
-    ], // replace with the origin of your client-side application
+    origin: "https://graphic-card-seller.onrender.com",
+    // origin: [
+    //   "http://localhost:3000",
+    //   "https://graphic-card-seller.onrender.com",
+    // ], // replace with the origin of your client-side application
     credentials: true,
   })
 );
