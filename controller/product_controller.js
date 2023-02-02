@@ -28,7 +28,7 @@ const add_product = async (req, res) => {
 };
 const get_product = async (req, res) => {
   const product_id = req.params.id;
-  // console.log(id);
+  console.log(product_id);
   try {
     let product = await Product.findById(product_id).populate({
       path: "reviews",

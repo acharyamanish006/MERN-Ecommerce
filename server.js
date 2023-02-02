@@ -11,16 +11,16 @@ connect_DB();
 
 //middleware
 app.set("trust proxy", 1);
-app.use(
-  cors({
-    // origin: "https://graphic-card-seller.onrender.com",
-    origin: [
-      "http://localhost:3000",
-      "https://graphic-card-seller.onrender.com",
-    ], // replace with the origin of your client-side application
-    credentials: true,
-  })
-);
+// app.use(
+//   cors({
+//     // origin: "https://graphic-card-seller.onrender.com",
+//     origin: [
+//       "http://localhost:3000",
+//       "https://graphic-card-seller.onrender.com",
+//     ], // replace with the origin of your client-side application
+//     credentials: true,
+//   })
+// );
 app.use(json_converter);
 app.use(cookieParser());
 app.use("/api/v1", router);
