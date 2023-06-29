@@ -36,7 +36,7 @@ router.route("/sign/out").get(Auth, sign_out);
 router.route("/user/info").get(Auth, user_info);
 router.route("/user/info/:id").get(Auth, anyUser_info);
 router.route("/add/product").post(Auth, add_product);
-router.route("/get/all/product").get(Auth, get_allProduct);
+router.route("/get/all/product").get(get_allProduct);
 router.route("/add/review/:id").post(Auth, add_review);
 
 //cart & wishlist
@@ -48,11 +48,11 @@ router.route("/get/product/cart").get(Auth, get_cart);
 router.route("/get/product/wishlist").get(Auth, get_wishlist);
 
 //search
-router.route("/get/product/search/:search_Q").get(Auth, search_product);
+router.route("/get/product/search/:search_Q").get(search_product);
 
 router
   .route("/product/:id")
-  .get(Auth, get_product)
+  .get(get_product)
   .delete(Auth, delete_product)
   .patch(Auth, update_product);
 
