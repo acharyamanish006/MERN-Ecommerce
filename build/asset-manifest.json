@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0d36c67a.css",
-    "main.js": "/static/js/main.7d190119.js",
+    "main.js": "/static/js/main.d73f6a8d.js",
     "static/media/RTX3060Ti.png": "/static/media/RTX3060Ti.1165868af706d28dacb8.png",
     "static/media/nvidia-png.png": "/static/media/nvidia-png.bab6c3013420a3fabc1e.png",
     "static/media/banner.jpg": "/static/media/banner.83989c4e763430868ee4.jpg",
@@ -14,10 +14,10 @@
     "static/media/poppins-latin-ext-400-normal.woff2": "/static/media/poppins-latin-ext-400-normal.4f38b4331448d2313adc.woff2",
     "index.html": "/index.html",
     "main.0d36c67a.css.map": "/static/css/main.0d36c67a.css.map",
-    "main.7d190119.js.map": "/static/js/main.7d190119.js.map"
+    "main.d73f6a8d.js.map": "/static/js/main.d73f6a8d.js.map"
   },
   "entrypoints": [
     "static/css/main.0d36c67a.css",
-    "static/js/main.7d190119.js"
+    "static/js/main.d73f6a8d.js"
   ]
 }
