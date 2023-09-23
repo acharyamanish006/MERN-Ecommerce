@@ -253,9 +253,9 @@ const search_product = async (req, res) => {
     const product = await Product.find();
 
     const searched_product = product.filter((data) => {
-      return search_param.toLowerCase() === " "
+      return search_param.toLowerCase() == ""
         ? data
-        : data.name.toLowerCase().includes(search_param);
+        : data.name.toLowerCase().includes(search_param.toLowerCase());
     });
     // ((product) => {
     //       product.filter((data) => {
