@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.46f5db0a.css",
-    "main.js": "/static/js/main.7908e7d7.js",
+    "main.js": "/static/js/main.a170969a.js",
     "static/media/nvidia-png.png": "/static/media/nvidia-png.bab6c3013420a3fabc1e.png",
     "static/media/poppins-all-400-normal.woff": "/static/media/poppins-all-400-normal.6fbfdac99c274b77fe96.woff",
     "static/media/poppins-devanagari-400-normal.woff2": "/static/media/poppins-devanagari-400-normal.64d5f06ee726edd58ca3.woff2",
@@ -9,10 +9,10 @@
     "static/media/poppins-latin-ext-400-normal.woff2": "/static/media/poppins-latin-ext-400-normal.4f38b4331448d2313adc.woff2",
     "index.html": "/index.html",
     "main.46f5db0a.css.map": "/static/css/main.46f5db0a.css.map",
-    "main.7908e7d7.js.map": "/static/js/main.7908e7d7.js.map"
+    "main.a170969a.js.map": "/static/js/main.a170969a.js.map"
   },
   "entrypoints": [
     "static/css/main.46f5db0a.css",
-    "static/js/main.7908e7d7.js"
+    "static/js/main.a170969a.js"
   ]
 }
