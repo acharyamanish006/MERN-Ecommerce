@@ -2,7 +2,9 @@
 # MERN Ecommerce
 
 
-![Screenshot from 2023-09-11 16-44-51](https://github.com/acharyamanish006/MERN-Ecommerce/assets/100832817/70add99b-a525-4da6-bfa3-cc09497e34fc)
+![Screenshot from 2023-09-11 16-44-51](https://github.com/acharyamanish006/MERN-Ecommerce/assets/100832817/af17ad5f-55fc-467d-99f5-ef4339b2dbdc)
+
+
 
 A Full-Stack Ecommerce application built with the MERN (MongoDB, Express.js, React.js, Node.js) stack. This project replicates major functionalities found in popular e-commerce websites, including user authentication, product management, shopping cart, and more.
 
